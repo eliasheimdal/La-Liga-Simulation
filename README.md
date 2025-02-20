@@ -1,10 +1,11 @@
-# La Liga Season 24/25 Simulation
+# La Liga Season 24/25 Simulation (Updated Feb 20)
 
 ## Overview
 This project simulates the remaining fixtures of the **2024/25 La Liga season** to predict the final league standings. The simulation is based on historical data from past seasons and the current standings.
 
 ## Data Sources
 The simulation uses match data from the following seasons:
+- **2020/21**
 - **2021/22**
 - **2022/23**
 - **2023/24**
@@ -35,27 +36,28 @@ After all simulations, the following probabilities are computed for each team:
 ## Results
 
 | Team         | Avg Rank | Win Probability | Second Place Probability | Third Place Probability | Top 4 Probability | Bottom Half Probability | Relegation Probability |
-|-------------|----------|----------------|-------------------------|------------------------|------------------|------------------------|----------------------|
-| Real Madrid  | 1.6112   | 57.37          | 26.73                   | 13.53                   | 99.80            | 0.00                   | 0.00                 |
-| Barcelona    | 2.3448   | 21.66          | 35.13                   | 32.98                   | 97.90            | 0.00                   | 0.00                 |
-| Ath Madrid   | 2.3632   | 20.17          | 34.08                   | 36.70                   | 98.55            | 0.00                   | 0.00                 |
-| Ath Bilbao   | 4.4063   | 0.70           | 3.07                    | 11.70                   | 62.43            | 0.14                   | 0.00                 |
-| Villarreal   | 5.3535   | 0.08           | 0.87                    | 4.22                    | 29.67            | 1.44                   | 0.00                 |
-| Girona       | 7.4818   | 0.02           | 0.08                    | 0.52                    | 5.66             | 12.35                  | 0.07                 |
-| Vallecano    | 8.9791   | 0.00           | 0.00                    | 0.12                    | 2.03             | 27.10                  | 0.37                 |
-| Betis        | 9.6786   | 0.00           | 0.02                    | 0.08                    | 1.13             | 36.55                  | 0.67                 |
-| Sociedad     | 9.7091   | 0.00           | 0.00                    | 0.05                    | 1.01             | 36.48                  | 0.89                 |
-| Sevilla      | 10.4221  | 0.00           | 0.00                    | 0.03                    | 0.73             | 46.66                  | 1.75                 |
-| Osasuna      | 10.6488  | 0.00           | 0.02                    | 0.03                    | 0.55             | 49.71                  | 1.72                 |
-| Mallorca     | 10.7871  | 0.00           | 0.00                    | 0.03                    | 0.42             | 51.62                  | 1.69                 |
-| Celta        | 13.2716  | 0.00           | 0.00                    | 0.01                    | 0.04             | 79.26                  | 9.74                 |
-| Getafe       | 14.1429  | 0.00           | 0.00                    | 0.00                    | 0.06             | 85.67                  | 15.69                |
-| Las Palmas   | 15.2099  | 0.00           | 0.00                    | 0.00                    | 0.01             | 92.15                  | 25.45                |
-| Espanol      | 15.5663  | 0.00           | 0.00                    | 0.00                    | 0.01             | 93.89                  | 30.19                |
-| Leganes      | 15.6214  | 0.00           | 0.00                    | 0.00                    | 0.00             | 93.77                  | 31.27                |
-| Alaves       | 16.3272  | 0.00           | 0.00                    | 0.00                    | 0.00             | 96.31                  | 41.18                |
-| Valencia     | 16.6301  | 0.00           | 0.00                    | 0.00                    | 0.00             | 96.97                  | 46.09                |
-| Valladolid   | 19.4450  | 0.00           | 0.00                    | 0.00                    | 0.00             | 99.93                  | 93.23                |
+|------------|----------|-----------------|---------------------------|-------------------------|-------------------|-------------------------|------------------------|
+| Real Madrid  | 1.8443   | 42.47%          | 34.72%                    | 19.03%                  | 99.69%            | 0.00%                   | 0.00%                  |
+| Barcelona   | 1.8930   | 41.70%          | 32.85%                    | 20.72%                  | 99.28%            | 0.00%                   | 0.00%                  |
+| Ath Madrid  | 2.5738   | 14.97%          | 28.51%                    | 43.20%                  | 97.75%            | 0.00%                   | 0.00%                  |
+| Ath Bilbao  | 4.1930   | 0.75%           | 3.16%                     | 12.72%                  | 69.43%            | 0.03%                   | 0.00%                  |
+| Villarreal  | 5.1400   | 0.11%           | 0.76%                     | 4.06%                   | 29.24%            | 0.78%                   | 0.00%                  |
+| Vallecano   | 8.7837   | 0.00%           | 0.00%                     | 0.09%                   | 1.24%             | 26.21%                  | 0.12%                  |
+| Girona      | 9.2274   | 0.00%           | 0.00%                     | 0.05%                   | 0.72%             | 31.33%                  | 0.31%                  |
+| Betis       | 9.4302   | 0.00%           | 0.00%                     | 0.06%                   | 0.70%             | 34.17%                  | 0.24%                  |
+| Sociedad    | 9.9283   | 0.00%           | 0.00%                     | 0.01%                   | 0.65%             | 41.60%                  | 0.48%                  |
+| Sevilla     | 10.1537  | 0.00%           | 0.00%                     | 0.02%                   | 0.54%             | 44.06%                  | 0.67%                  |
+| Mallorca    | 10.2434  | 0.00%           | 0.00%                     | 0.02%                   | 0.36%             | 45.62%                  | 0.47%                  |
+| Osasuna     | 10.8628  | 0.00%           | 0.00%                     | 0.00%                   | 0.25%             | 54.09%                  | 0.93%                  |
+| Getafe      | 11.6648  | 0.00%           | 0.00%                     | 0.02%                   | 0.10%             | 64.06%                  | 2.37%                  |
+| Celta       | 12.1717  | 0.00%           | 0.00%                     | 0.00%                   | 0.04%             | 70.19%                  | 3.14%                  |
+| Valencia    | 15.7635  | 0.00%           | 0.00%                     | 0.00%                   | 0.01%             | 95.82%                  | 27.77%                 |
+| Espanol     | 16.3087  | 0.00%           | 0.00%                     | 0.00%                   | 0.00%             | 97.08%                  | 36.81%                 |
+| Leganes     | 16.5067  | 0.00%           | 0.00%                     | 0.00%                   | 0.00%             | 97.96%                  | 40.22%                 |
+| Las Palmas  | 16.5506  | 0.00%           | 0.00%                     | 0.00%                   | 0.00%             | 98.07%                  | 40.11%                 |
+| Alaves      | 17.0341  | 0.00%           | 0.00%                     | 0.00%                   | 0.00%             | 98.93%                  | 49.09%                 |
+| Valladolid  | 19.7263  | 0.00%           | 0.00%                     | 0.00%                   | 0.00%             | 100.00%                 | 97.27%                 |
+
 
 ## Conclusion
 This simulation provides **probabilistic insights** into the final La Liga standings based on team performances. While not a definitive prediction, it offers valuable data-driven expectations for the remainder of the season.
